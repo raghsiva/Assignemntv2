@@ -18,17 +18,4 @@ export class DonorComponent implements OnInit {
       }
     )
   }
-  settings = {
-    columns: {
-      id: {
-        title: 'ID'
-      },
-      name: {
-        title: 'Name'
-      },
-      age: {
-        title: 'Age'
-      }
-    }
-  };
 }
